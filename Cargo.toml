@@ -1,0 +1,13 @@
+[package]
+name = "encoding-asn1"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [".", "encoding-asn1-derive"]
+
+[dependencies]
+encoding-asn1-derive = { path = "encoding-asn1-derive" }
+thiserror = "1.0"
