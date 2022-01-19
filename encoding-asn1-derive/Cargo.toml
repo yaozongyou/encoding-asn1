@@ -2,6 +2,8 @@
 name = "encoding-asn1-derive"
 version = "0.1.0"
 edition = "2018"
+description = "asn1 crate based on pkg.go.dev/encoding/asn1"
+license = "MIT"
 
 [dependencies]
 proc-macro2 = "1.0"
