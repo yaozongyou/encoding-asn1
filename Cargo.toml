@@ -9,5 +9,5 @@ edition = "2018"
 members = [".", "encoding-asn1-derive"]
 
 [dependencies]
-encoding-asn1-derive = { path = "encoding-asn1-derive" }
+encoding-asn1-derive = { path = "encoding-asn1-derive", version = "0.1.0" }
 thiserror = "1.0"
